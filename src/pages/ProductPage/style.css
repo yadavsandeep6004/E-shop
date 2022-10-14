@@ -1,0 +1,22 @@
+.productpage {
+  margin: 10px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.productpage img {
+  width: 100px;
+}
+
+@media (max-width: 768px) {
+  .productpage {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 370px) {
+  .productpage {
+    grid-template-columns: 1fr;
+  }
+}

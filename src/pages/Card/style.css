@@ -1,0 +1,71 @@
+.card-wapper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.card img {
+  width: 50px;
+  margin-right: 15px;
+}
+
+.card-button-wapper span {
+  margin: 0 5px;
+}
+
+.card-delete-wapper h5 {
+  margin: 0 15px;
+}
+
+.card-delete-wapper .delete {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.card-delete-wapper .delete:hover {
+  color: red;
+}
+
+.totale-price {
+  text-align: end;
+  padding: 20px 15px;
+}
+
+.totale-price h4 {
+  margin-bottom: 10px;
+}
+
+.empty-card {
+  height: calc(100vh - 60px);
+  object-fit: fill;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .empty-card {
+    width: 100%;
+    height: calc(100vh - 60px);
+    object-fit: fill;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .card-image-wapper,
+  .card-delete-wapper {
+    flex-direction: column;
+  }
+
+  .card-image-wapper > div {
+    margin-top: 5px;
+  }
+
+  .card-delete-wapper .delete {
+    margin-top: 10px;
+  }
+}

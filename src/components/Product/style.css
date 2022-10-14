@@ -1,0 +1,25 @@
+.product {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10%;
+  position: relative;
+  cursor: pointer;
+}
+
+.product img {
+  margin-bottom: 20px;
+}
+
+.product div {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.product div button {
+  margin-left: 20px;
+}
+
+.product h4 {
+  white-space: nowrap;
+}

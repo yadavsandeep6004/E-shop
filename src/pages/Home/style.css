@@ -1,0 +1,25 @@
+.home > div {
+  flex: 1;
+}
+
+.home .poster img {
+  width: 100%;
+}
+
+.home .home-text {
+  padding-left: 10%;
+}
+
+.home .home-text h1 {
+  margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .home > div {
+    margin-bottom: 20px;
+  }
+}
